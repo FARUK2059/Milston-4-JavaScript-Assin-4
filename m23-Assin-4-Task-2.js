@@ -13,9 +13,10 @@
 
 function checkName(name){
     // console.log(name);
-    if (typeof name !== 'string'){
+    if (typeof name !== 'String'){
         return 'invalid';
     }
+
 
     const lastGoodWordCapital = [ 'A', 'Y', 'I', 'E', 'O', 'U', 'W' ];
     const lastGoodWordSmall = [ 'a', 'y', 'i', 'e', 'o', 'u', 'w' ];
@@ -32,7 +33,10 @@ function checkName(name){
 }
 
 // const nameType = checkName('Sulman');
-const nameType = checkName('RAFEE');
+// const nameType = checkName('RAFEE');
+// const nameType = checkName('Jhankar');
+// const nameType = checkName(199);
+const nameType = checkName(["Rashed"]);
 console.log("The name Type  is :", nameType);
 
 
